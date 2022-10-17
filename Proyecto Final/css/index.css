@@ -1,0 +1,89 @@
+/* IMPORTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+/*VARIABLES */
+
+:root {
+
+    /*palette*/
+
+    --primary: #0079C1;
+    --secondary: #007BFF;
+    --light: #FFFFFF;
+    --accent: #000000;
+
+    /*font sizes*/
+
+    --text-xxl: 4.8em;
+    --text-xl: 3.6em;
+    --text-lg: 3.2em;
+    --text-md: 2.0em;
+    --text-sm: 1.6em;
+    --text-xs: 1.2em;
+
+    /*Spacings*/
+    --sp-xxl: 12rem;
+    --sp-xl: 8rem;
+    --sp-lg: 5rem;
+    --sp-md: 3.2rem;
+    --sp-sm: 1.6rem;
+    --sp-xs: 0.8rem;
+
+
+}
+
+/* NORMALIZE */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html { 
+    font-size: 62.5%;
+}
+
+BODY {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--text-sm);
+    color: var(--accent);
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+a {
+    font-size: var(--text-md);
+    text-decoration: none;
+    color: var(--light);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/*HEADER*/
+header {
+    padding: var(--sp-sm);
+    background-color: var(--accent);
+}
+.navbar .navbar__link{
+    display: inline-block;
+}
+
+.navbar .menu {
+    display: inline-block;
+}
+.navbar .menu .menu__item {
+    display: inline-block;
+}
+
+.navbar .menu .menu__link {
+    color: var(--light);
+}
